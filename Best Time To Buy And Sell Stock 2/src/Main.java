@@ -2,6 +2,6 @@ public class Main {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        solution.moveZeroes(new int[]{5,4,0,0,2,0,1,6,0,4});
+        System.out.println(solution.maxProfit(new int[]{2,8,9,72,84,1,0,5,100,97}));
     }
 }

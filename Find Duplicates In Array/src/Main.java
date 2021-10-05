@@ -2,6 +2,6 @@ public class Main {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        solution.moveZeroes(new int[]{5,4,0,0,2,0,1,6,0,4});
+        System.out.println(solution.findDuplicates(new int[]{4,3,2,7,8,2,3,1}));
     }
 }
