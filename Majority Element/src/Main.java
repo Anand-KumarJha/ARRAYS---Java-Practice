@@ -9,11 +9,5 @@ public class Main {
 
         FastSolution fastSolution = new FastSolution();
         System.out.println(fastSolution.majorityElement(new int[]{2,2,1,1,1,2,2}));
-
-        String s = "am";
-        Pattern pattern = Pattern.compile(s);
-        Matcher matcher = pattern.matcher("i am java");
-
-        System.out.println(matcher.find());
     }
 }
